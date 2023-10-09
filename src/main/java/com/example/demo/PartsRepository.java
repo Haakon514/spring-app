@@ -7,24 +7,24 @@ import java.util.ArrayList;
 @Component
 public class PartsRepository {
 
-    private ArrayList<Part> parts = new ArrayList<>();
+    private ArrayList<Part> partArrayList = new ArrayList<>();
 
     public PartsRepository(){
-        parts.add(new Part("gear"));
-        parts.add(new Part("wheel"));
-        parts.add(new Part("chain"));
+        partArrayList.add(new Part("gear"));
+        partArrayList.add(new Part("wheel"));
+        partArrayList.add(new Part("chain"));
     }
 
     public ArrayList<Part> getParts(){
-        return parts;
+        return partArrayList;
     }
 
     public void addPart(Part part){
-        parts.add(part);
+        partArrayList.add(part);
     }
 
     public void deletePart(Part part){
-        parts.remove(part);
+        partArrayList.remove(part);
     }
 
 }
