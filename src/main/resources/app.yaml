@@ -2,4 +2,4 @@ server:
   port: 8181
 
 jason:
-  word: "hello world i am håkon"
+  word: "hello world i am håkon!"
